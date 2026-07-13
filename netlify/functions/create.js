@@ -1,3 +1,4 @@
+const { getStore } = require('@netlify/blobs');
 const crypto = require('crypto');
 
 // Só minúsculas e números, sem caracteres ambíguos (0/o, 1/l) — fácil de lembrar, escrever à mão ou ditar por telefone
